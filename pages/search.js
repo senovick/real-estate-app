@@ -6,8 +6,8 @@ import { BsFilter } from 'react-icons/bs';
 
 import Property from '../components/Property';
 import SearchFilters from '../components/SearchFilters';
-import { baseUrl, fetchApi } from '../utils/fetchApi';
 import noresult from '../assets/images/noresult.svg'
+import { propertiesForRent, propertiesForSale } from '../data/properties';
 
 const Search = ({ properties }) => {
     const [searchFilters, setSearchFilters] = useState(false);
@@ -56,14 +56,18 @@ export async function getServerSideProps({ query }) {
     const bathsMin = query.bathsMin || '0';
     const sort = query.sort || 'price-desc';
     const areaMax = query.areaMax || '35000';
-    const locationExternalIDs = query.locationExternalIDs || '5002';
-    const categoryExternalID = query.categoryExternalID || '4';
-  
-    const data = await fetchApi(`${baseUrl}/properties/list?locationExternalIDs=${locationExternalIDs}&purpose=${purpose}&categoryExternalID=${categoryExternalID}&bathsMin=${bathsMin}&rentFrequency=${rentFrequency}&priceMin=${minPrice}&priceMax=${maxPrice}&roomsMin=${roomsMin}&sort=${sort}&areaMax=${areaMax}`);
+    const data = purpose === 'for-rent' ? propertiesForRent : propertiesForSale;
   
     return {
       props: {
-        properties: data?.hits,
+        properties: data?.hits.filter((p) => {
+            return p.baths >= bathsMin ||
+                   p.rentFrequency == rentFrequency ||
+                   p.price >= minPrice ||
+                   p.price <= maxPrice ||
+                   p.rooms >= roomsMin ||
+                   p.area <= areaMax; 
+        }),
       },
     };
   }

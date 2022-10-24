@@ -2156,6 +2156,7 @@ export const propertiesForRent = {
             "projectNumber": null,
             "title": "Pay Monthly Rent 2799 || Family Buildings & Neat and Calm Area || Near to Bus Stop",
             "title_l1": "ادفع الايجار الشهري 2799|| المباني العائلية والمنطقة النظيفة والهادئة || بالقرب من موقف الباص",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nibh lacus, cursus ut commodo et, porttitor eu ipsum. Vestibulum scelerisque ultrices risus, et lobortis ante condimentum vitae. Sed dapibus odio est, a mollis urna sagittis nec. Nunc dignissim pharetra ipsum, sit amet scelerisque lacus tempus eu. Sed dolor nunc, vehicula aliquam lectus et, dapibus iaculis tortor. In cursus enim at imperdiet luctus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;\n\nCras pretium, magna quis accumsan tempor, ex velit tempus lacus, id porttitor ligula nunc at nisl. Vestibulum mattis, lectus nec maximus consectetur, mauris risus rhoncus ligula, at tincidunt eros est id libero. Donec eget leo ante. Nunc porttitor, sapien eu bibendum rutrum, erat metus ultricies est, et hendrerit leo dolor a sem. Nunc a mauris eros. Morbi pellentesque elementum risus at sollicitudin. Maecenas quis nisi porttitor urna consequat vestibulum id vitae massa. Suspendisse potenti. Etiam dignissim nisl id enim vestibulum interdum.\nDonec convallis ex a feugiat bibendum. Aliquam erat volutpat. Sed vitae hendrerit sem, sed porta arcu. Vestibulum maximus ut libero ut tristique. Duis bibendum lorem vel tortor hendrerit egestas ut vel dolor. Mauris auctor tempor vehicula. Donec vitae ornare dui. Donec posuere aliquam felis nec cursus. Nam lectus erat, rhoncus quis nulla nec, dignissim feugiat neque. Phasellus ut purus tincidunt, tristique sapien at, pulvinar felis. Curabitur finibus commodo ex congue aliquet. Donec in elementum ipsum.",            
             "externalID": "5964440",
             "slug": "pay-monthly-rent-2799-family-buildings-neat-and-calm-area-near-to-bus-stop-5964440",
             "slug_l1": "pay-monthly-rent-2799-family-buildings-neat-and-calm-area-near-to-bus-stop-5964440",
@@ -2253,6 +2254,95 @@ export const propertiesForRent = {
             "photoCount": 12,
             "videoCount": 0,
             "panoramaCount": 0,
+            "photos": [
+                {
+                    "id": 285922583,
+                    "externalID": "131920428",
+                    "url": "http://localhost:3000/image/20b5df6ae62b483aac90c74fae099735.jpg"
+                },
+                {
+                    "id": 287213519,
+                    "externalID": "131920429",
+                    "url": "http://localhost:3000/image/db9216237ce84becb28eae304912c40e.jpg"
+                },
+                {
+                    "id": 285922585,
+                    "externalID": "131920430",
+                    "url": "http://localhost:3000/image/b9830876a71e41318bd84289aee6b1e4.jpg"
+                },
+                {
+                    "id": 285922586,
+                    "externalID": "131920431",
+                    "title": null,
+                    "orderIndex": 3,
+                    "nimaScore": 9.184612624632791,
+                    "url": "http://localhost:3000/image/9fadb5b1d3324bce8f1b3d94abfb6b94.jpg"
+                },
+                {
+                    "id": 285922587,
+                    "externalID": "131920432",
+                    "title": null,
+                    "orderIndex": 4,
+                    "nimaScore": 9.257988781241693,
+                    "url": "http://localhost:3000/image/a017011f16f940e59af3c823128982bc.jpg"
+                },
+                {
+                    "id": 289026110,
+                    "externalID": "131920433",
+                    "title": null,
+                    "orderIndex": 5,
+                    "nimaScore": 8.751679109631823,
+                    "url": "http://localhost:3000/image/ef7e414f65f044f68ca1d24fe3a078a2.jpg"
+                },
+                {
+                    "id": 285922591,
+                    "externalID": "131920434",
+                    "title": null,
+                    "orderIndex": 6,
+                    "nimaScore": 8.258843791947584,
+                    "url": "http://localhost:3000/image/16e9349085df4b35ab09bab6fb245f41.jpg"
+                },
+                {
+                    "id": 285922593,
+                    "externalID": "131920435",
+                    "title": null,
+                    "orderIndex": 7,
+                    "nimaScore": 5.999757015758974,
+                    "url": "http://localhost:3000/image/4145538ba9584e9c86cb90b0d7c75263.jpg"
+                },
+                {
+                    "id": 285922595,
+                    "externalID": "131920436",
+                    "title": null,
+                    "orderIndex": 8,
+                    "nimaScore": 8.879885838981863,
+                    "url": "http://localhost:3000/image/75dfef35cc964032b79176d83bd2ce23.jpg"
+                },
+                {
+                    "id": 285922597,
+                    "externalID": "131920437",
+                    "title": null,
+                    "orderIndex": 9,
+                    "nimaScore": 7.735665835120017,
+                    "url": "http://localhost:3000/image/5e9408fa07344adabaed6a160a653af8.jpg"
+                },
+                {
+                    "id": 285922599,
+                    "externalID": "131920438",
+                    "title": null,
+                    "orderIndex": 10,
+                    "nimaScore": 9.020260079910258,
+                    "url": "http://localhost:3000/image/c9c75cf889ed46b3b78a9707a71940c4.jpg"
+                },
+                {
+                    "id": 285922601,
+                    "externalID": "131920439",
+                    "title": null,
+                    "orderIndex": 11,
+                    "nimaScore": 6.002105100441983,
+                    "url": "http://localhost:3000/image/434412268cb642fc95139000aba31c08.jpg"
+                }
+            ],        
             "phoneNumber": {
                 "mobile": "+971522606125",
                 "phone": "+97145830100",
